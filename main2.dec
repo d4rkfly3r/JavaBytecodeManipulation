@@ -1,0 +1,70 @@
+Classfile /C:/Users/d4rkfly3r/Desktop/Tests/main.class
+  Last modified Nov 22, 2016; size 434 bytes
+  MD5 checksum e542a86ddccf5db8cd441b266146f415
+  Compiled from "main.java"
+class main
+  minor version: 0
+  major version: 52
+  flags: ACC_SUPER
+Constant pool:
+   #1 = Methodref          #8.#17         // java/lang/Object."<init>":()V
+   #2 = Class              #18            // TestClass
+   #3 = Methodref          #2.#17         // TestClass."<init>":()V
+   #4 = Fieldref           #19.#20        // java/lang/System.out:Ljava/io/PrintStream;
+   #5 = String             #21            // Called!
+   #6 = Methodref          #22.#23        // java/io/PrintStream.println:(Ljava/lang/String;)V
+   #7 = Class              #13            // main
+   #8 = Class              #24            // java/lang/Object
+   #9 = Utf8               <init>
+  #10 = Utf8               ()V
+  #11 = Utf8               Code
+  #12 = Utf8               LineNumberTable
+  #13 = Utf8               main
+  #14 = Utf8               ([Ljava/lang/String;)V
+  #15 = Utf8               SourceFile
+  #16 = Utf8               main.java
+  #17 = NameAndType        #9:#10         // "<init>":()V
+  #18 = Utf8               TestClass
+  #19 = Class              #25            // java/lang/System
+  #20 = NameAndType        #26:#27        // out:Ljava/io/PrintStream;
+  #21 = Utf8               Called!
+  #22 = Class              #28            // java/io/PrintStream
+  #23 = NameAndType        #29:#30        // println:(Ljava/lang/String;)V
+  #24 = Utf8               java/lang/Object
+  #25 = Utf8               java/lang/System
+  #26 = Utf8               out
+  #27 = Utf8               Ljava/io/PrintStream;
+  #28 = Utf8               java/io/PrintStream
+  #29 = Utf8               println
+  #30 = Utf8               (Ljava/lang/String;)V
+{
+  main();
+    descriptor: ()V
+    flags:
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 1: 0
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: new           #2                  // class TestClass
+         3: dup
+         4: invokespecial #3                  // Method TestClass."<init>":()V
+         7: pop
+         8: getstatic     #4                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        11: ldc           #5                  // String Called!
+        13: invokevirtual #6                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        16: return
+      LineNumberTable:
+        line 3: 0
+        line 4: 8
+        line 5: 16
+}
+SourceFile: "main.java"
